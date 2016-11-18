@@ -15,3 +15,12 @@ function gestureStart() {
     }
   }
 }
+
+var shoespic = document.querySelector('.shoes');
+shoespic.onmousedown = function() {
+  shoespic.style.animationPlayState = 'paused';
+}
+
+shoespic.onmouseup = function() {
+  shoespic.style.animationPlayState = 'running'
+}
