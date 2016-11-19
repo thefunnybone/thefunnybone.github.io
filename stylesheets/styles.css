@@ -64,12 +64,13 @@ body {
 
 h1 {
   color:#813300;
-  font-size: 60px;
+  font-size: 80px;
   margin:0 0 20px;
   text-decoration: bold;
 }
 
 h2, h3, h4, h5, h6 {
+  font-size: 50px;
   color:#813300;
   margin:0 0 20px;
   text-decoration: line-through;
@@ -77,10 +78,45 @@ h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  font-size: 26px;
 }
 
 p.subtext {
   font-size: 25px;
+}
+
+.gallery-text {
+  font-size: 30px;
+  color: white;
+}
+
+.gallery-text:hover {
+  font-size: 34px;
+  text-decoration: underline;
+}
+
+.gallery {
+  width: 250px;
+  height: auto;
+  margin: 25px;
+  border: 10px #FFFC64 solid;
+}
+
+.pictures {
+  display: none;
+  position: relative;
+  left: 20px;
+  right: 20px;
+  background-color: #58E08F;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.gallery:hover {
+  width: 120%;
+  height: auto;
 }
 
 h1, h2, h3 {
