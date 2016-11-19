@@ -8,4 +8,14 @@ $( document ).ready(function() {
     	event.preventDefault()
     	$(".pictures").css('display', 'none')
     })
+
+    $("#hannah").click(function(event){
+    	event.preventDefault()
+    	$(".hpic").css('display', 'block')
+    })
+
+    $("#pep").click(function(event){
+    	event.preventDefault()
+    	$(".ppic").css('display', 'block')
+    })
 });
