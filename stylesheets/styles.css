@@ -367,6 +367,14 @@ footer {
   margin-top: 20px;
 }
 
+.hpic, .ppic {
+  display:none;
+  width: 350px;
+  height: auto;
+  position: relative;
+  border: 5px #BE4589 solid;
+}
+
 .shoes-spinning {
   -webkit-animation-name: spin;
   -webkit-animation-duration: 4500ms;
