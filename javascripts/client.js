@@ -12,13 +12,18 @@ $( document ).ready(function() {
     $("#hannah").click(function(event){
     	event.preventDefault()
     	$(".hpic").css('display', 'block')
-        $('body').animate({backgroundColor: 'black'}, 'slow');
+        $('body').animate({backgroundColor: '#019875', color: 'white'}, 'slow');
     })
 
     $("#pep").click(function(event){
     	event.preventDefault()
     	$(".ppic").css('display', 'block')
-    	$('body').animate({backgroundColor: '#351A44'}, 'slow');
+    	$('body').animate({backgroundColor: '#351A44', color: 'white'}, 'slow');
+    })
+
+    $("#contact-us-header").click(function(event){
+    	event.preventDefault()
+    	$('body').animate({backgroundColor: '#FAEBD7', color: 'black'}, 'slow');
     })
 
 });
