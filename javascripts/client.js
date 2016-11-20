@@ -12,10 +12,13 @@ $( document ).ready(function() {
     $("#hannah").click(function(event){
     	event.preventDefault()
     	$(".hpic").css('display', 'block')
+        $('body').animate({backgroundColor: 'black'}, 'slow');
     })
 
     $("#pep").click(function(event){
     	event.preventDefault()
     	$(".ppic").css('display', 'block')
+    	$('body').animate({backgroundColor: '#351A44'}, 'slow');
     })
+
 });
